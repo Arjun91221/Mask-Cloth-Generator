@@ -19,6 +19,7 @@ from PIL import Image
 import io
 from cloth_segementation import main
 from bg_changer import change_bg, perfect_change_bg
+from typing import List
 
 app = FastAPI()
 
